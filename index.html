@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <p><b>Note:</b>Form is to be completed at least 21 days prior to date</p>
+    <form></form>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter Your Name"  required/> <br/> <br/>
+
+        <label>Adress:</label>
+        <input type="text" name="adress" placeholder="Enter Your Adress" required /><br/><br/>
+
+        <label>Phone no.:</label>
+        <input type="number" name="number" placeholder="Enter Your Number" required /><br/><br/>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter Your Email"  required/><br/><br/>
+
+        <label>IQ:</label>
+        <input type="number" name="iq" placeholder="Enter Your IQ"  required/><br/><br/>
+
+        <label>Gender:</label> <br/> <br/> <br/>
+        <input type="radio" name="Gender" value="male" checked/>Male<br/>
+        <input type="radio" name="Gender" value="male"/>Female<br/>
+        <input type="radio" name="Gender" value="male"/>Other<br/>
+
+
+
+    </fieldset>
+
+    <fieldset>
+        <label>  Check ALL that apply  </label><br/> <br/>
+
+        <input type="checkbox" name="language" value="html" checked/>HTML<br/>
+        <input type="checkbox" name="language" value="css" checked/>CSS<br/>
+        <input type="checkbox" name="language" value="javascript" checked/>JavaScript<br/>
+        <input type="checkbox" name="language" value="bootstrap" />Bootstrap<br/>
+        <input type="checkbox" name="language" value="react" />React<br/>
+        <input type="checkbox" name="language" value="python" />Python
+    </fieldset>
+    <button style="padding: 10px;margin-top: 20px;">Send Application</button>
+</body>
+</html>
